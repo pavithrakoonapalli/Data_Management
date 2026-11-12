@@ -1,0 +1,14 @@
+{
+  "with_customer": {
+    "invoices": 18276,
+    "mean_products": 21.0,
+    "median_products": 15.0,
+    "max_products": 540
+  },
+  "without_customer": {
+    "invoices": 1371,
+    "mean_products": 95.5,
+    "median_products": 38.0,
+    "max_products": 1106
+  }
+}

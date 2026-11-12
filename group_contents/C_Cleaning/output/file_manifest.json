@@ -1,0 +1,27 @@
+[
+  {
+    "file": "Online Retail.xlsx",
+    "bytes": 23715344,
+    "sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d"
+  },
+  {
+    "file": "online_retail_raw.csv",
+    "bytes": 48039726,
+    "sha256": "c35975c40d0e1e105090fbb11188a409393055f873841bd012915475fc84e69f"
+  },
+  {
+    "file": "online_retail_cleaned.csv",
+    "bytes": 55587846,
+    "sha256": "f84a174acc5467b594f0c69a43f5818b4d37ad885038a9c665f3a42f776b38f2"
+  },
+  {
+    "file": "online_retail_returns.csv",
+    "bytes": 1285404,
+    "sha256": "9f7da7d5eae330798164a417a1e5d27cb23a453a2884c09047d41fbc63c55dee"
+  },
+  {
+    "file": "online_retail_excluded.csv",
+    "bytes": 1042296,
+    "sha256": "541ce1e8477868e74a9d122aaadd791b67dec8a60be6dfb93d246e369d2d80fe"
+  }
+]

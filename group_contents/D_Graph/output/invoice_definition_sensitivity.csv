@@ -1,0 +1,6 @@
+variant,invoices,nodes,edges,connected_components,largest_component_nodes,modularity_largest_component,edges_shared_with_baseline,highest_degree_product,highest_degree,top10_degree_shared_with_baseline,alarm_clock_red_betweenness_rank
+baseline,19647,82,300,7,66,0.4523,300,JUMBO BAG RED RETROSPOT,44,10,6
+customer_invoices_only,18276,83,300,6,70,0.4656,206,JUMBO BAG RED RETROSPOT,30,6,45
+largest_1_percent_of_invoices_removed,19450,83,300,7,68,0.4593,262,JUMBO BAG RED RETROSPOT,34,7,10
+october_to_december_removed,12568,76,300,5,65,0.4146,253,JUMBO BAG RED RETROSPOT,43,7,47
+united_kingdom_only,17791,84,300,7,66,0.4499,277,JUMBO BAG RED RETROSPOT,45,8,44

@@ -1,0 +1,48 @@
+{
+  "construction": {
+    "invoices_in_cleaned_sales": 19647,
+    "candidate_products": 100,
+    "distinct_candidate_pairs": 4950,
+    "edges_kept": 300,
+    "weakest_kept_weight": 258,
+    "pairs_tied_at_cutoff": 2,
+    "ties_cut_off": 1
+  },
+  "graph": {
+    "nodes": 82,
+    "edges": 300,
+    "density": 0.0903,
+    "connected_components": 7,
+    "component_sizes": [
+      66,
+      4,
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "largest_component_nodes": 66,
+    "average_clustering": 0.589,
+    "average_clustering_weighted": 0.2711,
+    "communities_greedy_whole_graph": 10,
+    "community_sizes_greedy_whole_graph": [
+      30,
+      18,
+      15,
+      4,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "modularity_greedy_whole_graph": 0.486,
+    "communities_greedy_largest_component": 4,
+    "modularity_greedy_largest_component": 0.4523,
+    "communities_louvain_largest_component": 4,
+    "modularity_louvain_largest_component": 0.469,
+    "spearman_popularity_vs_degree": 0.541
+  }
+}

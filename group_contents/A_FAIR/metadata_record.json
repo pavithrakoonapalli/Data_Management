@@ -1,0 +1,138 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Online Retail",
+  "description": "Transactional data set containing all transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retailer. The company mainly sells unique all-occasion gifts; many customers are wholesalers.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.24432/C5BW33",
+    "url": "https://doi.org/10.24432/C5BW33"
+  },
+  "url": "https://archive.ics.uci.edu/dataset/352/online+retail",
+  "datePublished": "2015",
+  "dateModified": "2024-10-21",
+  "inLanguage": "en",
+  "keywords": [
+    "e-commerce",
+    "retail transactions",
+    "invoices",
+    "customer segmentation",
+    "market basket analysis"
+  ],
+  "creator": {
+    "@type": "Person",
+    "name": "Daqing Chen",
+    "email": "chend@lsbu.ac.uk",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "London South Bank University",
+      "identifier": "https://ror.org/02vwnat91"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "UCI Machine Learning Repository",
+    "url": "https://archive.ics.uci.edu"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "conditionsOfAccess": "Open access, no registration required; attribution required under CC BY 4.0.",
+  "citation": {
+    "@type": "ScholarlyArticle",
+    "name": "Data mining for the online retail industry: A case study of RFM model-based customer segmentation using data mining",
+    "author": [
+      "Daqing Chen",
+      "Sai Laing Sain",
+      "Kun Guo"
+    ],
+    "datePublished": "2012",
+    "isPartOf": "Journal of Database Marketing and Customer Strategy Management, Vol. 19, No. 3",
+    "identifier": "https://doi.org/10.1057/dbm.2012.17"
+  },
+  "size": "541,909 rows; 8 variables",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "online+retail.zip",
+      "description": "ZIP archive distributed by UCI. It contains one file, Online Retail.xlsx.",
+      "contentUrl": "https://archive.ics.uci.edu/static/public/352/online+retail.zip",
+      "encodingFormat": "application/zip",
+      "contentSize": "23715478 bytes",
+      "hasPart": {
+        "@type": "MediaObject",
+        "name": "Online Retail.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "23715344 bytes",
+        "sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d"
+      }
+    }
+  ],
+  "temporalCoverage": "2010-12-01/2011-12-09",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Customer locations under 38 country labels (United Kingdom 91.43% of rows); the retailer is UK-based"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "InvoiceNo",
+      "propertyID": "https://schema.org/orderNumber",
+      "description": "Text. Documented as a 6-digit number per transaction, where a leading 'c' marks a cancellation. Observed: 532,618 rows with 6 digits, 9,288 with prefix C, 3 with prefix A (bad-debt adjustments). Repeats across the lines of one invoice."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "StockCode",
+      "propertyID": "https://schema.org/sku",
+      "description": "Text. Documented as a 5-digit product number. Observed: also 5 digits plus letter(s) for variants, and administrative codes such as POST, DOT, M."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Description",
+      "propertyID": "https://schema.org/description",
+      "description": "Text. Product name. Observed: 1,454 missing (0.27%)."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Quantity",
+      "propertyID": "https://schema.org/orderQuantity",
+      "description": "Integer. Items per invoice line; negative for cancellations and stock adjustments.",
+      "minValue": -80995,
+      "maxValue": 80995
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "InvoiceDate",
+      "propertyID": "https://schema.org/orderDate",
+      "description": "Date and time (minute precision, time zone not stated) when the transaction was generated."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "UnitPrice",
+      "propertyID": "https://schema.org/price",
+      "description": "Decimal. Price per unit. Observed: 2,515 zero and 2 negative values.",
+      "unitText": "GBP",
+      "minValue": -11062.06,
+      "maxValue": 38970
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "CustomerID",
+      "propertyID": "https://schema.org/customer",
+      "description": "5-digit identifier of the customer. Observed: 135,080 missing (24.93%), although the repository states that the data have no missing values."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Country",
+      "propertyID": "https://schema.org/addressCountry",
+      "description": "Text. Country where the customer resides. Observed: 38 labels, not standardised (EIRE, RSA, Unspecified, European Community). The cleaned file adds ISO 3166-1 alpha-2 codes."
+    }
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Provenance",
+      "value": "Transactions of a UK-based non-store online retailer, 2010-12-01 to 2011-12-09. Donated to the UCI Machine Learning Repository by Daqing Chen, London South Bank University, in 2015. The source business system and extraction process are not documented."
+    }
+  ]
+}

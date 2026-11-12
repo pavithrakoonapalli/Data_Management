@@ -1,0 +1,22 @@
+{
+  "product_cancellation_lines": 8668,
+  "matched_exactly": 2818,
+  "unmatched": 5850,
+  "matched_percent_of_lines": 32.5,
+  "product_cancellation_value_gbp": -475901.16,
+  "matched_sale_value_gbp": 425796.21,
+  "matched_percent_of_value": 89.5,
+  "administrative_reversal_value_gbp": -418078.57,
+  "amazon_fee_value_gbp": -235281.59,
+  "amazon_fee_percent_of_admin_value": 56.3,
+  "manual_entry_rows": 244,
+  "manual_entry_value_gbp": -146784.46,
+  "non_product_descriptions_remaining_rows": 82,
+  "non_product_descriptions_remaining_detail": {
+    "Next Day Carriage": 79,
+    "High Resolution Image": 3
+  },
+  "non_product_descriptions_remaining_revenue_gbp": 1227.0,
+  "price_zero_rows_removed_with_customer": 40,
+  "price_rows_removed_total": 584
+}

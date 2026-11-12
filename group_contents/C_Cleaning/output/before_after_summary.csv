@@ -1,0 +1,23 @@
+measure,before,after
+Q3 duplicate rows,5268.0,0.0
+Q2 missing Description,1454.0,0.0
+Q4 'C' invoices,9288.0,0.0
+Q5 Quantity < 0,10624.0,0.0
+Q6 UnitPrice <= 0,2517.0,0.0
+Q7 administrative code rows,2946.0,0.0
+Q9 lower-case StockCode rows,1977.0,0.0
+Q10 Description with outer spaces,113452.0,0.0
+Q13 labels EIRE/RSA/USA,8545.0,0.0
+"Q14 Quantity >= 10,000",3.0,0.0
+Q1 missing CustomerID (kept and flagged),135080.0,131387.0
+Returns file: product cancellation rows,8704.0,8668.0
+Returns file: administrative reversal rows,584.0,583.0
+Returns file: stock adjustment rows,1336.0,1336.0
+'C' invoice rows without CustomerID,383.0,379.0
+Total rows,541909.0,522538.0
+"Quantity, sum",5176450.0,5406177.0
+"Revenue GBP, sum",9747747.93,10001566.12
+"Quantity, mean",9.55,10.35
+"Quantity, max",80995.0,4800.0
+"UnitPrice, max",38970.0,649.5
+Distinct StockCodes,4070.0,3798.0

@@ -1,0 +1,9 @@
+,rows,also_has_another_issue
+Q1 Missing CustomerID,135080,5635
+Q2 Missing Description,1454,1454
+Q3 Exact duplicate,5268,81
+Q4 Cancellation,9288,782
+"Q5 Negative qty, no 'C'",1336,1336
+Q6 UnitPrice <= 0,2517,2483
+Q7 Administrative code,2946,1407
+Q9 Lower-case StockCode,1977,1977
