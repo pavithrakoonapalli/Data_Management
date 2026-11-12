@@ -104,6 +104,7 @@ Quality dimensions are defined in `B_Quality/profiling.ipynb`, section 5.
 - Root causes in the issue register are hypotheses; the source system is undocumented.
 - Graph results describe a filtered network (100 products, 300 strongest pairs). Some measures, especially modularity, change with these thresholds. Shared invoices show association, not causation.
 - The dataset ends in December 2011.
+- AI assistance (Claude Code) was used to help prepare the code, the project documentation and drafts of the report. All AI-assisted output was reviewed by the authors, and the reported figures were checked against the pipeline outputs, but AI-generated content may still contain errors that were not detected.
 
 ## Licence and citation
 
